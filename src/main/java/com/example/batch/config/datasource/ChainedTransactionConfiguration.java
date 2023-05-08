@@ -9,7 +9,7 @@ import org.springframework.data.transaction.ChainedTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration
-public class ChainedTxConfig {
+public class ChainedTransactionConfiguration {
 
     @Bean
     @Primary
